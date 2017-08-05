@@ -61,7 +61,7 @@ public class MethodTest {
         mt.setName("Anjali");
         mt.setAddress("Indore");
         mt.setAge(22);
-        
+            
         System.out.println("Name- "+mt.getName()+" Address:- "+mt.getAddress()+" age:-"+mt.getAge());
     }
     
