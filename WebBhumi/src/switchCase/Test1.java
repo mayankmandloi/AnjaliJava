@@ -12,10 +12,30 @@ package switchCase;
 public class Test1 {
     
     public static void main(String[] args) {
-        int i = 10;
-        switch(i)
+        int i = 101,j=20;
+        char oper='!';// + - * / % 
+        switch(oper)
         {
-            
+            case '+':
+            case '!':
+                System.out.println(i+j);
+                break;
+            case '-':
+                System.out.println(i-j);
+                break;
+            case '*':
+                System.out.println(i*j);
+                break;
+            case '/':
+                System.out.println(i/j);
+                break;
+            case '%':
+                System.out.println(i%j);
+                break;
+            default:
+                System.out.println("Sorry Not valid");
+
+
         }
     }
     
