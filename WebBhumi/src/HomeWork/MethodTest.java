@@ -67,8 +67,8 @@ public class MethodTest {
         mt.setAge(22);
         
         System.out.println("Name- "+mt.getName()+" Address:- "+mt.getAddress()+" age:-"+mt.getAge());
-        mt.setNumber(9826055360);
-        System.out.println("Number- "+mt.getNumber()
+        mt.setNumber(9826055360l);
+        System.out.println("Number- "+mt.getNumber());
     }
 
     /**
